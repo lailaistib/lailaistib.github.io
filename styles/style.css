@@ -1,0 +1,383 @@
+/*Start Font*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+/*End Font*/
+
+/* Start Body */
+
+/*Selector*/
+body { 
+    /*property*/
+    background-image: url('../image/back3.jpg');
+    background-color:rgba(255, 235, 211, 0.712);
+    background-size: cover;
+    color:#00334E;
+    font-family: Oswald , Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding:0;
+}
+
+/*End Body*/
+
+/*Start Debug*/
+.bg-blue {
+    background-color: aqua;
+}
+.bg-red {
+    background-color: crimson;
+}
+/*End Debug*/
+
+/* Start Container */
+.container {
+    margin:10px auto;
+    overflow: auto;
+    width:90%;
+}
+.container-full {
+    margin:10px auto;
+    overflow: auto;
+    width:100%;
+}
+.container h2 {
+    background-color: rgba(248, 151, 139, 0.726);
+    border-radius: 4px;
+    border-color: rgba(228, 103, 103, 0.801);
+}
+.container .box-isi-tentang {
+    background-color: rgba(236, 196, 147, 0.726);
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* Start Logo */
+
+/*Start Anchor / Hyperlink*/
+a:link,
+a:visited {
+    color:#00334E;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: red;
+    text-decoration: underline;
+}
+/*Start Anchor / Hyperlink*/
+
+/* Start Menu Primer*/
+.menu-primer ul {
+    background-color: darkolivegreen;
+    border-radius: 4px;
+    box-shadow: 
+    0 3px 5px -1px rgba(0,0,0,0,.2),
+    0 6px 10px 0 rgba(0,0,0,.14),
+    0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid whitesmoke;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu-primer a:hover {
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+}
+/* Start Menu Primer*/
+
+/*Start Heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 10px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+h6 {
+    font-size: 12px;
+}
+
+/*End Heading*/
+
+/*Start Jumbotron*/
+.jumbotron {
+    background-color: rgba(229, 224, 153, 0.514);
+    border: 1px solid wheat;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 18px;
+    padding: 0 20px;
+}
+/*End Jumbotron*/
+
+/*Start Main*/
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 150px;
+}
+/*End Main*/
+
+
+/* Start Box */
+.box-heading {
+    background-color: rgba(243, 135, 131, 0.685);
+    border: 1px solid rgb(241, 122, 122);
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4{
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: rgba(255, 255, 255, 0.596);
+    border: 1px solid rgb(241, 122, 122);
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/*Start Testimonial*/
+.testimonial {
+    border-left: 4px solid rgba(240, 217, 154, 0.863);
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/*End Testimonial*/
+
+/*Start Menu Sekunder*/
+.menu-sekunder {
+    background-color: rgba(178, 215, 247, 0.651);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder img {
+    vertical-align: middle;
+}
+/*End Menu Sekunder*/
+
+/*Start Copyright*/
+.copyright p {
+    font-size: 15px;
+}
+/*Start Copyright*/
+
+/*Start Effect*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,500,900);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1446 {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 30%;
+  max-width: 30%;
+  max-height: 30%;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
+.snip1446 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1446 img {
+  opacity: 1;
+  width: 100%;
+}
+.snip1446:after,
+.snip1446:before,
+.snip1446 figcaption:after,
+.snip1446 figcaption:before {
+  background: #0a0a0a;
+  width: 25%;
+  position: absolute;
+  content: '';
+  opacity: 0;
+  -webkit-transition: all 0.3s steps(4);
+  transition: all 0.3s steps(4);
+  z-index: 1;
+  top: 100%;
+  bottom: 0;
+}
+.snip1446:before {
+  left: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+.snip1446:after {
+  left: 25%;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.snip1446 figcaption:before {
+  left: 50%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  z-index: -1;
+}
+.snip1446 figcaption:after {
+  left: 75%;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  z-index: -1;
+}
+.snip1446 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 30px;
+}
+.snip1446 h2,
+.snip1446 p,
+.snip1446 .icons {
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+}
+.snip1446 h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.snip1446 p {
+  font-weight: 300;
+}
+.snip1446 .icons {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+}
+.snip1446 i {
+  padding: 0px 10px;
+  display: inline-block;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.8;
+}
+.snip1446 i:hover {
+  opacity: 1;
+}
+.snip1446:hover:after,
+.snip1446.hover:after,
+.snip1446:hover:before,
+.snip1446.hover:before,
+.snip1446:hover figcaption:after,
+.snip1446.hover figcaption:after,
+.snip1446:hover figcaption:before,
+.snip1446.hover figcaption:before {
+  top: 0;
+  opacity: 0.8;
+}
+.snip1446:hover figcaption h2,
+.snip1446.hover figcaption h2,
+.snip1446:hover figcaption p,
+.snip1446.hover figcaption p,
+.snip1446:hover figcaption .icons,
+.snip1446.hover figcaption .icons {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.snip1446:hover figcaption h2,
+.snip1446.hover figcaption h2,
+.snip1446:hover figcaption .icons,
+.snip1446.hover figcaption .icons {
+  opacity: 1;
+}
+.snip1446:hover figcaption p,
+.snip1446.hover figcaption p {
+  opacity: 0.7;
+}
+/*End Effect*/
